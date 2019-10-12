@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فرحتي</string>
+    <string name="action_settings" translatable="false">الاعدادت</string>
+    <string name="action_sign_in" translatable="false">تسجيل دخول</string>
+    <string name="action_sign_in_short" translatable="false">تسجيل دخول</string>
+    <string name="action_sign_up" translatable="false">تسجيل حساب</string>
+    <string name="error_field_required" translatable="false">هذا الحقل مطلوب</string>
+    <string name="error_incorrect_password" translatable="false">كلمه المرور غير صحيحه</string>
+    <string name="error_invalid_email" translatable="false">خطاء في الايميل</string>
+    <string name="error_invalid_password" translatable="false">كلمه المرور غير صالحه</string>
+    <string name="forget_your_password" translatable="false">نسيت كلمه المرور</string>
+    <string name="no_account_sing_up" translatable="false">ليس لديك حساب؟ سجل هنا</string>
+    <string name="prompt_email" translatable="false">البريد الالكتروني</string>
+    <string name="prompt_password">كلمه المرور</string>
+    <string name="prompt_phone">هاتف</string>
+    <string name="re_password">اعد ادخال كلمه المرور</string>
+    <string name="title_activity_hall_list">فرحتي</string>
+    <string name="register">انشاء حساب</string>
+    <string name="to">الي تاريخ</string>
+    <string name="from">"من تاريخ "</string>
+    <string name="searsh">بحث</string>
+    <string name="location">الموقع</string>
+    <string name="chose_your_dream_hall">"اختار صالة أحلامك "</string>
+    <string name="prompt_name">الاسم</string>
+</resources>

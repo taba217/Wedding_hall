@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <RelativeLayout
+               android:id="@+id/image_card"
+               android:layout_width="match_parent"
+               android:layout_height="160dp">
+
+               <ImageView
+                   android:id="@+id/hall_image_list"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/hall_1"
+                   android:background="@drawable/round_image"
+                   android:scaleType="centerCrop" />
+
+               <TextView
+                   android:id="@+id/hall_name"
+                   android:textColor="@color/color3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="OneOneOneOne"
+                   android:background="@drawable/text_shape"
+                   android:padding="5dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_margin="16dp"
+                   />
+
+               <TextView
+                   android:id="@+id/hall_price"
+                   android:textColor="@color/color3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="OneOneOneOne"
+                   android:background="@drawable/text_shape"
+                   android:padding="5dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_margin="16dp"
+                   />
+
+           </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/image_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <Button
+                    android:id="@+id/hall_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button2"
+                    android:text="More"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/color3"
+                    />
+
+                <TextView
+                    android:id="@+id/hall_location"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="الموقع: شارع المطار - قرب المطار "
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

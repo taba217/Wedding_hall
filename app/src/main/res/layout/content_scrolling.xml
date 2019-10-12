@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp" >
+
+        <!-- put whatever you want -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+
+            <TextView
+                android:textSize="24sp"
+                android:textColor="@color/color1"
+                android:id="@+id/text_head_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Virgina Hall"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="16dp"
+                />
+
+            <TextView
+                android:textSize="24sp"
+                android:textColor="@color/color1"
+                android:id="@+id/text_head_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="صاله فيرجينيا "
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="16dp"
+                />
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_below="@id/text_head_1"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:rating="2"
+                style="?android:attr/ratingBarStyleSmall"
+                />
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/text_data_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hall size: 2k"
+                android:layout_below="@id/rating"
+                android:layout_marginStart="16dp" />
+
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/text_data_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location: kh - west"
+                android:layout_below="@id/text_data_1"
+                android:layout_marginStart="16dp" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/buttons"
+                android:padding="5dp"
+                android:textColor="@color/color3"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/text_data_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hint Hint"
+                android:layout_below="@id/text_data_2"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/text_data_4"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/text_data_3"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="15dp"
+                android:text="No food no light"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

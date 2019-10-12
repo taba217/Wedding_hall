@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroung"
+    tools:context=".harith.Details">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/button_text_color"
+        android:textSize="30sp"
+        android:text="Hall Details xlarg"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="#fff"
+        android:background="@drawable/list_shape">
+
+        <LinearLayout
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="8dp" >
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hall_1"
+                    android:background="@drawable/round_image"
+                    android:scaleType="centerCrop" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="8dp" >
+
+                <!-- put whatever you want -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp">
+
+
+                    <TextView
+                        android:textSize="40sp"
+                        android:textColor="@color/color1"
+                        android:id="@+id/text_head_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Virgina Hall"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_margin="16dp"
+                        />
+
+                    <TextView
+                        android:textSize="40sp"
+                        android:textColor="@color/color1"
+                        android:id="@+id/text_head_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="صاله فيرجينيا "
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="16dp"
+                        />
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        android:layout_below="@id/text_head_1"
+                        android:layout_width="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:rating="2"
+                        />
+
+                    <TextView
+                        android:textSize="30sp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/text_data_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hall size: 2k"
+                        android:layout_below="@id/rating"
+                        android:layout_marginStart="16dp" />
+
+
+                    <TextView
+                        android:textSize="30sp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/text_data_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Location: kh - west"
+                        android:layout_below="@id/text_data_1"
+                        android:layout_marginStart="16dp" />
+
+                    <!--<view-->
+                    <!--android:layout_above="@+id/text_data_3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_margin="8dp"-->
+                    <!--/>-->
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/buttons"
+                        android:padding="20dp"
+                        android:textSize="30sp"
+                        android:textColor="@color/color3"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/text_data_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hint Hint"
+                        android:layout_below="@id/text_data_2"
+                        android:layout_marginStart="16dp" />
+
+                    <TextView
+                        android:id="@+id/text_data_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_below="@id/text_data_3"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="No food no light"
+                        android:textSize="24sp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rent and rent"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/color3"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

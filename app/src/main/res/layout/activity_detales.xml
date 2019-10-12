@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context=".harith.Details">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/button_text_color"
+        android:textSize="30sp"
+        android:text="@string/hall_details_no"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/list_shape">
+
+        <LinearLayout
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/hall_1"
+                android:background="@drawable/round_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/list_shape2"
+                android:layout_margin="5dp">
+
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="@color/color1"
+                        android:id="@+id/text_head_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Virgina Hall"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_margin="16dp"
+                        />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/color1"
+                    android:id="@+id/text_head_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="صاله فيرجينيا "
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    />
+
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_below="@id/text_head_1"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:rating="2"
+                    style="?android:attr/ratingBarStyleSmall"
+                    />
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/text_data_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hall size"
+                    android:layout_below="@id/rating"
+                    android:layout_marginStart="16dp" />
+
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/text_data_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:layout_below="@id/text_data_1"
+                    android:layout_marginStart="16dp" />
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/buttons"
+                    android:padding="5dp"
+                    android:textColor="@color/color3"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/text_data_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hint Hint"
+                    android:layout_below="@id/text_data_2"
+                    android:layout_marginStart="16dp" />
+
+                <TextView
+                    android:id="@+id/text_data_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No food no light"
+                    android:layout_below="@id/text_data_3"
+                    android:layout_marginStart="16dp" />
+
+
+
+
+            </RelativeLayout>
+
+            <Button
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rent and rent"
+                android:background="@drawable/button3"
+                android:textColor="@color/color3"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
