@@ -8,7 +8,7 @@
     android:orientation="vertical"
 
     android:background="#fff"
-    tools:context=".LoginActivity">
+    tools:context=".harith.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -143,6 +143,8 @@
                 android:textSize="14sp"
                 android:textAlignment="center"
                 android:textColor="@color/color2"
+                android:clickable="true"
+                android:onClick="newaccount"
                 />
 
 

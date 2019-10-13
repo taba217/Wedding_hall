@@ -8,7 +8,7 @@
     android:orientation="vertical"
 
     android:background="#fff"
-    tools:context=".LoginActivity">
+    tools:context=".harith.SingUp">
 
     <!-- Login progress -->
     <ProgressBar
@@ -195,7 +195,8 @@
                 android:fontFamily="@font/arab_bold"
                 android:text="@string/action_sign_up"
                 android:textColor="@color/button_text_color"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="register"/>
 
 
             <TextView

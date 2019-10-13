@@ -8,7 +8,7 @@
     android:orientation="vertical"
 
     android:background="#fff"
-    tools:context=".LoginActivity">
+    tools:context=".harith.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
